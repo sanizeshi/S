@@ -1,10 +1,10 @@
 # Ustad# SIDRA5# Thuglife# Somibro# Gamz#!/usr/bin/python2
 #coding=utf-8
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,random.choice
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
 for n in range(10000):
 
-    nmbr = random.choice(1111111, 9999999)
+    nmbr = random.randint.choice(1111111, 9999999)
     
     sys.stdout = open('.txt', 'a')
 
@@ -24,7 +24,7 @@ except ImportError:
     time.sleep(1)
     os.system('Then type: python2 ranamz')
 
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize,random.choice
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -46,7 +46,7 @@ def acak(b):
     w = 'ahtdzjc'
     d = ''
     for i in x:
-        d += '!'+w[random.choice(0,len(w)-1)]+i
+        d += '!'+w[random.randint(0,len(w)-1)]+i
     return cetak(d)
 
 
